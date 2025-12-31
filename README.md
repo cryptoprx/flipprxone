@@ -1,5 +1,7 @@
 <div align="center">
 
+![FLIPPRX ONE Banner](images/banner.png)
+
 # 🚀 FLIPPRX ONE Wallet
 
 ### Next-Generation XRPL Wallet with SnapTap Security
