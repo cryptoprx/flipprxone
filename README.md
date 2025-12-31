@@ -2,8 +2,6 @@
 
 ![FLIPPRX ONE Banner](images/banner.png)
 
-# 🚀 FLIPPRX ONE Wallet
-
 ### Next-Generation XRPL Wallet with SnapTap Security
 
 **Secure • Multi-Chain • Feature-Rich**
@@ -20,6 +18,10 @@
 
 ## ✨ What is FLIPPRX ONE?
 
+<div align="center">
+<img src="images/flipprx.png" alt="FLIPPRX" width="100"/>
+</div>
+
 **FLIPPRX ONE** is an advanced, self-custodial wallet built for the XRP Ledger with multi-chain support. Featuring revolutionary SnapTap WebAuth security, tiered transaction fees, integrated crypto exchange, NFT marketplace, and cross-chain capabilities for Supra and Coreum networks.
 
 ### 🎯 Built For
@@ -33,6 +35,10 @@
 ---
 
 ## 🔐 Security First: SnapTap Technology
+
+<div align="center">
+<img src="images/snap.png" alt="SnapTap" width="120"/>
+</div>
 
 FLIPPRX ONE features **SnapTap WebAuth** - revolutionary security that combines:
 
@@ -126,6 +132,12 @@ Exclusive DeFi features for authorized NFT holders:
 ### 🌐 Multi-Chain Support
 
 **Beyond XRPL - Manage Multiple Blockchains:**
+
+<div align="center">
+<img src="images/xrp.png" alt="XRP" width="60"/>
+<img src="images/supra.png" alt="Supra" width="60"/>
+<img src="images/coreum.png" alt="Coreum" width="60"/>
+</div>
 
 - ⚡ **Supra Network** - Activate Supra wallet from your XRPL seed
 - 🔷 **Coreum Network** - Activate Coreum wallet integration
@@ -328,6 +340,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 If you find FLIPPRX ONE useful, please consider giving it a star! ⭐
 
 **Built with ❤️ for the XRPL & FLIPPRX Community**
+
+<img src="images/CROAKWORKS.png" alt="CROAKWORKS" width="150"/>
 
 ---
 
