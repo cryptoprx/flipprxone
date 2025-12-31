@@ -282,7 +282,7 @@ FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no ha
 
 ### Join Our Growing Community
 
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/flipprx)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/_flipprx_)
 [![Discord](https://img.shields.io/badge/Discord-Join-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/flipprx)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/flipprx)
 
@@ -338,9 +338,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## ⚡ Quick Links
 
 - 🌐 **Website** - [flipprx.one](#)
-- 📱 **Launch Wallet** - [app.flipprx.one](#)
-- 📖 **Documentation** - [docs.flipprx.one](#)
-- 💬 **Support** - [support@flipprx.one](#)
+- 📱 **Launch Wallet** - [one.flipprx.xyz](#)
+- 📖 **Documentation** - [flipprx.xyz](#)
+- 💬 **Support** - [admin@croak.work](#)
 - 🐦 **Twitter** - [@_flipprx_](https://x.com/_flipprx_)
 
 ---
@@ -355,7 +355,7 @@ If you find FLIPPRX ONE useful, please consider giving it a star! ⭐
 
 ---
 
-© 2025 FLIPPRX ONE. CROAKWORKSAll rights reserved.
+© 2025 FLIPPRX ONE. CROAKWORKS. All rights reserved.
 
 **Your Keys. Your Crypto. Your Future.**
 
