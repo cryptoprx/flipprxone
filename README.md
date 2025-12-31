@@ -108,22 +108,6 @@ Exclusive DeFi features for authorized NFT holders:
 - 🌍 **Global Support** - Multiple countries and payment methods
 - 🔒 **Secure** - Integrated Changelly API with address validation
 
-### 📦 NFT Pack Marketplace
-
-**Collectible NFT Packs with RLUSD**
-
-- 🎁 **Purchase Packs** - Buy NFT packs using RLUSD (Ripple USD)
-- 🎲 **Pack Reveal** - Open packs to reveal NFT contents
-- 🏪 **Marketplace** - Browse available pack offerings
-- 💎 **Rare Collectibles** - Discover unique FLIPPRX NFTs
-
-### 🌐 Domain Depot
-
-- 📛 **On-Chain Domains** - Claim your unique XRPL identity
-- 🎁 **Genesis Domains** - Special domain system for FLIPPRX holders
-- 🖼️ **NFT Display** - Domains shown in your NFT gallery
-- 🔗 **Easy Sharing** - Simplified address sharing
-
 ---
 
 ## 💎 Premium Features
