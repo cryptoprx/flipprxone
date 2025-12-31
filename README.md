@@ -288,20 +288,20 @@ FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no ha
 - ✅ **Tiered Fees** - Reduced fees for NFT holders
 - ✅ **Changelly Exchange** - Buy/sell crypto with fiat
 - ✅ **LP Trading** - NFT-authorized liquidity pools
-- ✅ **NFT Marketplace** - Gallery, packs, and trading
+- ✅ **NFT Gallery** - View and manage your NFT collection
 - ✅ **MIMO Messenger** - Encrypted on-chain messaging
-- ✅ **Domain Depot** - Genesis domain system
 - ✅ **DApp Connector** - Connect to XRPL dApps
 - ✅ **Transaction History** - Complete audit trail
 - ✅ **Trustline Manager** - Easy token management
 - ✅ **Sound Effects** - Enhanced user experience
 
-### 🚧 Continuous Development
+### 🚧 In Progress
+- 🔄 **NFT Pack Marketplace** - Purchase and reveal collectible NFT packs with RLUSD
+- 🔄 **Domain Depot** - Genesis domain system for FLIPPRX holders
 - 🔄 Additional blockchain integrations
 - 🔄 Enhanced NFT features
 - 🔄 Advanced trading tools
 - 🔄 Mobile optimization
-- 🔄 Community-driven features
 
 ---
 
