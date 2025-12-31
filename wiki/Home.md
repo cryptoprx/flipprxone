@@ -13,7 +13,6 @@
 - **[Security Guide](Security)** - Understanding SnapTap WebAuth
 - **[Multi-Chain Support](Multi-Chain)** - XRPL, Supra, and Coreum
 - **[LP Trading](LP-Trading)** - NFT-authorized liquidity pools
-- **[LP Trustlines](LP-Trustlines)** - Create trustlines for LP tokens
 - **[FAQ](FAQ)** - Common questions answered
 
 ---

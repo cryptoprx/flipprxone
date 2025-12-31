@@ -184,21 +184,6 @@ Now you can receive FLIPPRX tokens!
 - Receive from other users
 - Participate in community events
 
-### LP Token Trustlines (NFT Required)
-
-**For Liquidity Pool Trading:**
-
-If you hold an authorized LP trading NFT, you can create trustlines for LP tokens:
-
-- **XRP/FLIPPRX LP** - Main liquidity pool
-- **ECP/FLIPPRX LP** - ECP pool
-- **JNT/FLIPPRX LP** - JNT pool  
-- **MFLIP/FLIPPRX LP** - MFLIP pool
-
-Each LP trustline costs 0.2 XRP reserve.
-
-[Complete LP Trustlines Guide →](LP-Trustlines)
-
 ---
 
 ## 📤 Sending Your First Transaction
