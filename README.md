@@ -10,7 +10,7 @@
 [![XRPL](https://img.shields.io/badge/XRPL-Mainnet-blue.svg)](https://xrpl.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
 
-[🌐 Live Demo](#) • [📖 Documentation](#features) • [💬 Community](#community)
+[🌐 Live Demo](https://one.flipprx.xyz) • [📖 Documentation](https://github.com/cryptoprx/flipprxone) • [💬 Community](https://t.me/flipprx)
 
 ---
 
@@ -245,7 +245,7 @@ Built with modern, battle-tested technologies:
 
 FLIPPRX ONE is built by the community, for the community:
 
-- 👥 **2M+ FLIPPRX Holders** - Exclusive features and domains
+- 👥 **2M+ FLIPPRX Domain** - Exclusive features and domains
 - 🤝 **Open Source** - Contribute and improve
 - 💡 **Community Driven** - Your feedback shapes development
 - 🌐 **Global Access** - Available worldwide, no restrictions
@@ -267,15 +267,6 @@ FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no ha
 
 ---
 
-## 📚 Resources
-
-- 📖 **User Guide** - [Complete documentation](#)
-- 🎥 **Video Tutorials** - [Watch and learn](#)
-- ❓ **FAQ** - [Common questions answered](#)
-- 🐛 **Report Issues** - [GitHub Issues](https://github.com/cryptoprx/flipprxone/issues)
-
----
-
 ## 🤝 Community & Support
 
 <div align="center">
@@ -283,7 +274,6 @@ FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no ha
 ### Join Our Growing Community
 
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/_flipprx_)
-[![Discord](https://img.shields.io/badge/Discord-Join-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/flipprx)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/flipprx)
 
 </div>
