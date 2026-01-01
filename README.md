@@ -107,6 +107,15 @@ Exclusive DeFi features for authorized NFT holders:
 - 👥 **Contact Management** - Organize your network
 - 💬 **XRPL Native** - Built directly on the ledger
 
+### 🌍 Bilingual Support
+
+**Complete Spanish Language Support**
+
+- 🇺🇸🇪🇸 **English & Spanish** - Full UI translation with 350+ keys
+- 🔄 **Real-Time Switching** - Instant language toggle in settings
+- 💾 **Persistent Preference** - Language choice saved locally
+- 🌐 **Complete Coverage** - All features translated
+
 ### 💱 Changelly Exchange Integration
 
 **Buy & Sell Crypto with Fiat**
@@ -198,6 +207,7 @@ Built with modern, battle-tested technologies:
 - ⚡ **Supra L1 SDK** - Supra blockchain integration
 - 🔷 **CosmJS** - Coreum blockchain integration  
 - 💱 **Changelly API** - Crypto exchange integration
+- 🌍 **i18n System** - Custom translation system with 350+ keys
 - 🔒 **Web Crypto API** - Browser-native encryption
 - 🎨 **Tailwind CSS** - Modern, responsive design
 - 💾 **Prisma + PostgreSQL** - Domain Depot database
@@ -283,15 +293,19 @@ FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no ha
 ### ✅ Fully Implemented
 - ✅ **SnapTap WebAuth** - Dual-key NFC/biometric security
 - ✅ **Multi-Chain** - XRPL, Supra, Coreum support
+- ✅ **Bilingual Support** - Complete English & Spanish translation (350+ keys)
 - ✅ **Tiered Fees** - Reduced fees for NFT holders
 - ✅ **Changelly Exchange** - Buy/sell crypto with fiat
 - ✅ **LP Trading** - NFT-authorized liquidity pools
 - ✅ **NFT Gallery** - View and manage your NFT collection
+- ✅ **NFT Search & Offers** - Search wallets and check incoming transfers
 - ✅ **MIMO Messenger** - Encrypted on-chain messaging
 - ✅ **DApp Connector** - Connect to XRPL dApps
-- ✅ **Transaction History** - Complete audit trail
-- ✅ **Trustline Manager** - Easy token management
+- ✅ **Transaction History** - Complete audit trail with status tracking
+- ✅ **Trustline Manager** - Easy token management with LP support
+- ✅ **Domain Manager** - 2MCLUB domain claiming for holders
 - ✅ **Sound Effects** - Enhanced user experience
+- ✅ **Address Validation** - Real-time crypto address verification
 
 ### 🚧 In Progress
 - 🔄 **NFT Pack Marketplace** - Purchase and reveal collectible NFT packs with RLUSD
