@@ -8,7 +8,7 @@ Common questions about FLIPPRX ONE answered.
 
 ### What is FLIPPRX ONE?
 
-FLIPPRX ONE is a next-generation, self-custodial wallet for the XRP Ledger with multi-chain support (Supra, Coreum), featuring SnapTap WebAuth security, tiered transaction fees, integrated crypto exchange, and exclusive DeFi features.
+FLIPPRX ONE is a next-generation, self-custodial wallet for the XRP Ledger with multi-chain support (Solana, Supra, Bitcoin), featuring SnapTap WebAuth security, tiered transaction fees, integrated crypto exchange, and exclusive DeFi features.
 
 ### Is FLIPPRX ONE free to use?
 
@@ -215,20 +215,21 @@ When traders swap tokens in the pool, they pay a small fee. This fee is distribu
 ### What chains are supported?
 
 - **XRPL** - XRP Ledger (fully supported)
+- **Solana** - Full SOL and SPL token support with send, receive, and swap
 - **Supra** - Supra Network (activate from XRPL seed)
-- **Coreum** - Coreum blockchain (activate from XRPL seed)
+- **Bitcoin** - Bitcoin wallet activation and transactions (preview)
 
-### How do I activate Supra/Coreum?
+### How do I activate other chains?
 
-1. Go to "Multi-Chain" tab
-2. Select Supra or Coreum
+1. Go to Settings or use the Network Switcher
+2. Select the chain you want to activate (Solana, Supra, or Bitcoin)
 3. Click "Activate"
 4. Authenticate with SnapTap
-5. Wallet created from your XRPL seed!
+5. Wallet created — switch networks instantly from the dashboard!
 
 ### Do I need separate seed phrases?
 
-No! Your Supra and Coreum wallets are derived from your XRPL seed phrase. One seed phrase controls all chains.
+No! Your Solana, Supra, and Bitcoin wallets are derived from your XRPL seed phrase. One seed phrase controls all chains.
 
 [Multi-chain guide →](Multi-Chain)
 

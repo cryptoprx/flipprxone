@@ -193,6 +193,46 @@ Strict CSP headers prevent:
 
 ---
 
+## 🛡️ Application Security (v1.3.0+)
+
+### Server-Side Input Validation
+
+All 14 API routes hardened with strict validation:
+- Address format verification before processing
+- Amount range and type checking
+- Payload size limits
+- Rejection of malformed requests
+
+### DApp Transaction Approval
+
+Connected dApps cannot silently submit transactions:
+- **Approval Modal** - Every DApp transaction shows amount, destination, and memo for review
+- **Explicit Confirm/Reject** - Users must tap Approve before any transaction is signed
+- **Origin Validation** - Only trusted origins can request transactions
+
+### Clipboard Hijack Protection
+
+Malware can replace copied addresses with attacker addresses:
+- **Paste Confirmation** - Visual toast appears when pasting into address fields
+- **All Send Forms** - Protection on XRP, Solana, and Supra send inputs
+- **Exchange Forms** - Recipient address field also protected
+
+### Auto-Lock / Session Timeout
+
+Wallet locks after inactivity to prevent unauthorized access:
+- Configurable timeout period
+- Requires re-authentication to unlock
+- Session manager tracks activity
+
+### Input Sanitization
+
+All user-facing text inputs are sanitized:
+- HTML tags stripped from contact names and tags
+- Length limits enforced (50 chars name, 30 chars tag)
+- Prevents XSS injection through address book entries
+
+---
+
 ## 🎯 Best Practices
 
 ### For Maximum Security
@@ -375,7 +415,7 @@ Found a security vulnerability? We appreciate responsible disclosure.
    - Keyloggers
    - Screen capture
    - Clipboard hijacking
-   - **Protection:** Device security + SnapTap
+   - **Protection:** Clipboard paste protection with visual confirmation toast
 
 3. **Social Engineering**
    - Impersonation

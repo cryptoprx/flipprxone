@@ -292,21 +292,30 @@ If you hold authorized FLIPPRX NFTs:
 
 ## 🌐 Multi-Chain Support
 
+### Activate Solana Wallet
+
+1. Go to **Settings** or use the **Network Switcher**
+2. Select **"Solana"**
+3. Click **"Activate"**
+4. Authenticate with SnapTap
+5. Solana wallet created from your XRPL seed! ◎
+6. Send SOL, SPL tokens, and swap via Jupiter
+
 ### Activate Supra Wallet
 
-1. Go to **"Multi-Chain"** tab
+1. Use the **Network Switcher**
 2. Select **"Supra"**
 3. Click **"Activate"**
 4. Authenticate with SnapTap
-5. Supra wallet created from your XRPL seed! ⚡
+5. Supra wallet created! ⚡
 
-### Activate Coreum Wallet
+### Activate Bitcoin Wallet (Preview)
 
-1. Go to **"Multi-Chain"** tab
-2. Select **"Coreum"**
+1. Use the **Network Switcher**
+2. Select **"Bitcoin"**
 3. Click **"Activate"**
 4. Authenticate with SnapTap
-5. Coreum wallet created! 🔷
+5. Bitcoin wallet created! ₿
 
 [Learn more about Multi-Chain →](Multi-Chain)
 

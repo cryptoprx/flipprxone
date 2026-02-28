@@ -11,7 +11,7 @@
 - **[Getting Started](Getting-Started)** - Set up your wallet in minutes
 - **[Features Overview](Features)** - Explore all capabilities
 - **[Security Guide](Security)** - Understanding SnapTap WebAuth
-- **[Multi-Chain Support](Multi-Chain)** - XRPL, Supra, and Coreum
+- **[Multi-Chain Support](Multi-Chain)** - XRPL, Solana, Supra, and Bitcoin
 - **[LP Trading](LP-Trading)** - NFT-authorized liquidity pools
 - **[FAQ](FAQ)** - Common questions answered
 
@@ -22,12 +22,14 @@
 FLIPPRX ONE is an advanced wallet that combines:
 
 - 🔐 **SnapTap WebAuth** - Dual-key NFC/biometric security
-- 🌐 **Multi-Chain** - XRPL, Supra, Coreum support
+- 🌐 **Multi-Chain** - XRPL, Solana, Supra, Bitcoin support
 - 💱 **Changelly Exchange** - Buy/sell crypto with fiat
 - 💎 **Tiered Fees** - Reduced fees for NFT holders
 - 🔄 **LP Trading** - Exclusive DeFi features
 - 💬 **MIMO Messenger** - Encrypted on-chain messaging
 - 🎨 **NFT Gallery** - Complete NFT management
+- 🔒 **Security Hardening** - DApp approval, clipboard protection, auto-lock
+- ⚡ **UX Enhancements** - Recent recipients, QR receive, MAX send, swipe nav
 
 ---
 
@@ -41,8 +43,9 @@ FLIPPRX ONE is an advanced wallet that combines:
 
 ### Multi-Chain Ready
 - **XRPL** - Full XRP Ledger support
+- **Solana** - SOL and SPL token support with send, receive, and swap
 - **Supra** - Supra Network integration
-- **Coreum** - Coreum blockchain support
+- **Bitcoin** - Bitcoin wallet activation (preview)
 
 ### Premium Features
 - **Tiered Transaction Fees**
@@ -90,7 +93,7 @@ Import your wallet using:
 
 ### Advanced Features
 - **[LP Trading Guide](LP-Trading)** - Liquidity pool trading
-- **[Multi-Chain Setup](Multi-Chain)** - Activate Supra/Coreum
+- **[Multi-Chain Setup](Multi-Chain)** - Activate Solana/Supra/Bitcoin
 - **[MIMO Messenger](MIMO)** - Encrypted messaging
 - **[Domain Depot](Domains)** - On-chain domains
 
@@ -133,4 +136,4 @@ Join our growing community:
 
 FLIPPRX ONE is open source under the MIT License.
 
-© 2025 FLIPPRX ONE. CROAKWORKS. All rights reserved.
+© 2026 FLIPPRX ONE. CROAKWORKS. All rights reserved.

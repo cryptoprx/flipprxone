@@ -2,6 +2,48 @@
 
 All notable changes to FLIPPRX ONE will be documented in this file.
 
+## [1.4.0] - 2026-02-27
+
+### 🎯 Added - UX Improvements
+- **Recent Recipients** - Last 3 addresses shown as quick-tap chips on Send (XRP + Solana)
+- **One-Tap QR Receive** - Dashboard button opens compact QR modal for current network address
+- **MAX Send Button** - Auto-fills maximum sendable balance (reserves 10 XRP for account reserve)
+- **Live USD Equivalent** - Real-time dollar value shown while typing send amounts
+- **Transaction Receipts** - Copy formatted receipt (amount, destination, tx hash) after sending
+- **Network Indicator Badge** - Persistent pill with pulse dot showing active blockchain
+- **Swipe Tab Navigation** - Swipe left/right on mobile to navigate between tabs
+- **Smart Notifications** - Success auto-dismisses in 3s, errors stay for 8s
+
+### 🎨 Enhanced - Styling & Polish
+- **Active Tab Glow** - Pulsing green shadow on selected tab
+- **Balance Shimmer Loading** - Skeleton placeholders while balances load
+- **Animated Numbers** - Smooth counting animation on total USD value changes
+- **Balance Flash** - Green flash on successful balance refresh
+- **Button Tap Feedback** - `active:scale-95` on all buttons for mobile feel
+- **Input Focus Glow** - Green halo on focused input fields
+- **Glass Card Dark Mode** - Backdrop-blur and subtle glow in dark mode
+- **Modal Backdrop Blur** - Upgraded overlay with blur effect
+- **Update Toast** - Compact bottom notification replaces aggressive modal
+
+---
+
+## [1.3.0] - 2026-02-27
+
+### 🔒 Added - Security Hardening
+- **Server-Side Input Validation** - All 14 API routes hardened with strict input validation
+- **DApp Transaction Approval** - Transactions from connected dApps require explicit user approval
+- **Clipboard Hijack Protection** - Visual confirmation toast on all address paste events
+- **Auto-Lock / Session Timeout** - Wallet locks after inactivity period for safety
+- **Address Book Sanitization** - Contact names stripped of HTML tags and length-limited
+- **Wallet Version System** - Centralized `WALLET_VERSION` constant with changelog notifications
+
+### 🚀 Added - Multi-Chain Expansion
+- **Solana Mainnet** - Full send, receive, and SPL token support
+- **Bitcoin Support** - Bitcoin wallet activation and transactions (preview)
+- **Network Switcher** - Seamless switching between XRPL, Solana, Supra, and Bitcoin
+
+---
+
 ## [1.2.0] - 2024-12-31
 
 ### 🌍 Added - Bilingual Support
@@ -70,11 +112,12 @@ All notable changes to FLIPPRX ONE will be documented in this file.
 ## Upcoming Features
 
 ### 🔄 In Development
-- Mobile app optimization
-- Additional blockchain integrations
+- Mobile app (PWA) optimization
+- Additional Solana DeFi integrations
 - Enhanced NFT marketplace features
-- Advanced trading tools
-- Portfolio analytics
+- Advanced trading tools and charting
+- Portfolio analytics dashboard
+- Multi-language expansion beyond English/Spanish
 
 ---
 
