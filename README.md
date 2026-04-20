@@ -84,7 +84,7 @@ Why leave the wallet to use DeFi? Navigate to the "Apps" tab to seamlessly load 
 
 <div align="center" style="margin: 30px 0;">
 <img src="images/xrp.png" alt="XRP" width="60" style="margin: 0 15px;"/>
-<img src="images/solana.png" alt="Solana" width="60" style="margin: 0 15px;"/>
+<img src="images/solanaLogoMark.png" alt="Solana" width="60" style="margin: 0 15px;"/>
 </div>
 
 FLIPPRX supports fully independent multi-network architectures within the same single-page application experience:
