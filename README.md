@@ -1,16 +1,16 @@
 <div align="center">
 
-![FLIPPRX Wallet Hero](images/hero.png)
+<img src="images/banner.png" alt="FLIPPRX Wallet Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 
-### The Gateway to DeFi: Next-Gen XRPL Architecture
+# The Gateway to Web3 🌌
 
-**Zero-Registration • SnapTap Security • Built-In dApps**
+**[🌐 Launch Web App](https://one.flipprx.xyz)** • **[💬 Telegram Community](https://t.me/flipprx)** • **[🐦 Follow Updates](https://twitter.com/_FLIPPRX_)**
 
-[![XRPL](https://img.shields.io/badge/XRPL-Mainnet-blue.svg)](https://xrpl.org/)
-[![Solana](https://img.shields.io/badge/Solana-Mainnet-purple.svg)](https://solana.com/)
-[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
-
-[🌐 Web App](https://one.flipprx.xyz) • [💬 Community](https://t.me/flipprx)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
+[![Security: WebAuthn](https://img.shields.io/badge/Security-SnapTap%20WebAuthn-orange.svg)](#)
+[![XRPL](https://img.shields.io/badge/Network-XRPL%20Mainnet-blue.svg)](https://xrpl.org/)
+[![Solana](https://img.shields.io/badge/Network-Solana%20Mainnet-purple.svg)](https://solana.com/)
+[![Next.js](https://img.shields.io/badge/Framework-Next.js%2015-black.svg)](https://nextjs.org/)
 
 ---
 
@@ -32,13 +32,13 @@
 ## 🔐 Military-Grade Security: SnapTap
 
 <div align="center">
-<img src="images/snap.png" alt="SnapTap" width="120"/>
+<img src="images/snap.png" alt="SnapTap" width="120" style="margin: 20px 0;"/>
 </div>
 
 Forget storing insecure 12-to-24-word seeds. FLIPPRX introduces **SnapTap KMS**:
 
 | Technology | Action |
-|---------|---------|
+|-------------|--------|
 | 🔑 **WebAuthn Biometrics** | Keys are sealed inside your device's Secure Enclave (FaceID / Windows Hello). |
 | 🛡️ **AES-256-GCM** | Military-grade encryption payload derived locally via HKDF. |
 | 📱 **Zero Backend** | 100% Client-Side. We don't have servers that hold keys—ever. |
@@ -52,34 +52,39 @@ Forget storing insecure 12-to-24-word seeds. FLIPPRX introduces **SnapTap KMS**:
 
 Why leave the wallet to use DeFi? Navigate to the "Apps" tab to seamlessly load FLIPPRX's fully localized, native toolkit:
 
+<table>
+<tr>
+<td width="60%">
+
 ### 🏪 Marketplace & Commerce
-- **FLIPPRX Marketplace:** Discover, buy, and sell official FLIPPRX NFTs. Features live global sales filtering, advanced Rarity scanning, and zero-fee bonding options—embedded right into the SPA.
+- **FLIPPRX Marketplace:** Discover, buy, and sell official FLIPPRX NFTs. Features live global sales filtering, advanced Rarity scanning, and zero-fee bonding options.
 - **Convert Dust (Recycle):** Turn tiny, unusable leftover asset balances scattered across trustlines into useable FLIPPRX tokens instantly.
 
 ### 🔐 Tools & Security
 - **Encrypted Notes:** A highly secure notepad protected by the exact same biometric WebAuthn security as your crypto keys.
 - **Account Recovery (Guardian):** Rely on trusted Multi-Sig contacts if you ever lose your device.
-- **Address Book:** Save and format frequently used addresses globally (XRPL, Solana, BTC) safely.
 - **Account Tools:** Toggle advanced ledger options like DID identity flags and Deposit Preauth.
 
 ### 🏦 Advanced DeFi (XRPL Exclusives)
 - **Payment Checks:** Draft a digital check on-chain. Send XRP to a recipient that they can cash whenever they want—or cancel it.
 - **Scheduled Send (Escrow):** Cryptographically lock assets to be delivered on a future date.
-- **Domains Manager:** Effortlessly retrieve and manage your on-chain `.flipprx` domain mapped directly via your `AccountRoot`!
 
-### 🌍 Explore
-- **FLIPPRX Radio:** Built-in seamless audio rotation for curated focus beats.
-- **Portfolio Tracker:** Watch live distribution curves of your holdings.
-- **Fork DAO:** Join the blockchain governance node and manage your DAO tier.
+</td>
+<td width="40%" align="center">
+  <img src="images/hero.png" alt="Dashboard Interface" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);" />
+  <br>
+  <i><small>The native SPA Dashboard</small></i>
+</td>
+</tr>
+</table>
 
 ---
 
 ## ⚡ Multi-Chain Mastery
 
-<div align="center">
-<img src="images/xrp.png" alt="XRP" width="60"/>
-<img src="images/solana.png" alt="Solana" width="60"/>
-<img src="images/btc.png" alt="Bitcoin" width="60"/>
+<div align="center" style="margin: 30px 0;">
+<img src="images/xrp.png" alt="XRP" width="60" style="margin: 0 15px;"/>
+<img src="images/solana.png" alt="Solana" width="60" style="margin: 0 15px;"/>
 </div>
 
 FLIPPRX supports fully independent multi-network architectures within the same single-page application experience:
@@ -103,28 +108,21 @@ Crypto apps shouldn't be boring spreadsheets.
 
 ---
 
-## 🖥 100% Free & Open End-Point Architecture
-
-- ✅ **Self-Custodial** - We literally could not freeze your wallet if we tried.
-- ✅ **No Tracking** - No Google Analytics. No session cookies. 
-- ✅ **On-Chain Truth** - We don't rely on middleware servers. We run direct RPC calls to public ledgers. 
-- ✅ **No Installations** - Works flawlessly on iOS Safari, Android Chrome, and Desktop Web Environments identically.
-
----
-
 ## 🚀 Get Started Now
 
 1. **Launch**: Open [FLIPPRX Wallet](https://one.flipprx.xyz)
-2. **Create**: Choose WebAuthn / Password Setup.
-3. **Bridge/Send**: Fund your newly created local address.
+2. **Create**: Choose WebAuthn Security.
+3. **Fund**: Send XRP/SOL to activate your local address.
 4. **Explore**: Dive right into the Marketplace and native DeFi dApps.
+
+<br>
 
 <div align="center">
 
 **Built with ❤️ for the Web3 Community**
 
-<img src="images/CROAKWORKS.png" alt="CROAKWORKS" width="150"/>
+<img src="images/CROAKWORKS.png" alt="CROAKWORKS" width="150" style="margin-top: 20px;"/>
 
-© 2026 FLIPPRX. CROAKWORKS.
+© 2026 FLIPPRX ONE. All Rights Reserved.
 
 </div>
