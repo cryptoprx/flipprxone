@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/flipprx.png" alt="FLIPPRX Wallet Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+<img src="images/flipicon.png" alt="FLIPPRX Wallet Logo" width="120" style="margin-bottom: 20px;" />
 
 # The Gateway to Web3 🌌
 
