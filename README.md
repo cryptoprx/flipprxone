@@ -16,6 +16,10 @@
 
 </div>
 
+<table>
+<tr>
+<td width="70%">
+
 ## ✨ What is FLIPPRX ONE Wallet (fONE)?
 
 **FLIPPRX ONE Wallet (fONE)** is an advanced, non-custodial wallet ecosystem running entirely inside your browser. No extensions. No accounts. With unparalleled **SnapTap WebAuth** security, a gorgeous glassmorphic interface, and a massive library of built-in Mini-dApps, fONE abstracts away the hard parts of crypto so you can focus on trading, collecting, and managing your portfolio.
@@ -26,6 +30,15 @@
 - 🎨 **NFT Collectors** - A full built-in marketplace with zero-fee utility bonds.
 - 🔒 **Privacy Advocates** - Nothing touches our servers; no email signup required.
 - ⚡ **Power Traders** - Live price backgrounds, instantaneous RPC nodes, and max send metrics.
+
+</td>
+<td width="30%" align="center">
+  <img src="images/hero.png" alt="Dashboard Interface" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);" />
+  <br>
+  <i><small>The native SPA Dashboard</small></i>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -52,10 +65,6 @@ Forget storing insecure 12-to-24-word seeds. FLIPPRX introduces **SnapTap KMS**:
 
 Why leave the wallet to use DeFi? Navigate to the "Apps" tab to seamlessly load FLIPPRX's fully localized, native toolkit:
 
-<table>
-<tr>
-<td width="60%">
-
 ### 🏪 Marketplace & Commerce
 - **FLIPPRX Marketplace:** Discover, buy, and sell official FLIPPRX NFTs. Features live global sales filtering, advanced Rarity scanning, and zero-fee bonding options.
 - **Convert Dust (Recycle):** Turn tiny, unusable leftover asset balances scattered across trustlines into useable FLIPPRX tokens instantly.
@@ -68,15 +77,6 @@ Why leave the wallet to use DeFi? Navigate to the "Apps" tab to seamlessly load 
 ### 🏦 Advanced DeFi (XRPL Exclusives)
 - **Payment Checks:** Draft a digital check on-chain. Send XRP to a recipient that they can cash whenever they want—or cancel it.
 - **Scheduled Send (Escrow):** Cryptographically lock assets to be delivered on a future date.
-
-</td>
-<td width="40%" align="center">
-  <img src="images/hero.png" alt="Dashboard Interface" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);" />
-  <br>
-  <i><small>The native SPA Dashboard</small></i>
-</td>
-</tr>
-</table>
 
 ---
 
