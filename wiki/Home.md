@@ -1,108 +1,34 @@
-# Welcome to FLIPPRX ONE Wiki
+# Welcome to FLIPPRX Wallet Wiki
 
-![FLIPPRX ONE](https://raw.githubusercontent.com/cryptoprx/flipprxone/main/images/flipprx.png)
+![FLIPPRX ONE](../images/hero.png)
 
-**FLIPPRX ONE** is a next-generation, self-custodial wallet for the XRP Ledger with multi-chain support, featuring revolutionary SnapTap WebAuth security.
+**FLIPPRX Wallet** is a next-generation, browser-native self-custodial wallet ecosystem. Featuring a unified glassmorphic Single Page Application (`SPA`) architecture, it supports the XRPL, Solana, and Bitcoin ledgers simultaneously—secured by **SnapTap WebAuth KMS**.
 
 ---
 
 ## 🚀 Quick Links
 
-- **[Getting Started](Getting-Started)** - Set up your wallet in minutes
-- **[Features Overview](Features)** - Explore all capabilities
-- **[Security Guide](Security)** - Understanding SnapTap WebAuth
-- **[Multi-Chain Support](Multi-Chain)** - XRPL, Solana, Supra, and Bitcoin
-- **[LP Trading](LP-Trading)** - NFT-authorized liquidity pools
-- **[FAQ](FAQ)** - Common questions answered
+- **[Getting Started](Getting-Started)** - Enter the wallet in seconds. Zero registration.
+- **[FAQ](FAQ)** - Find quick answers to common questions.
+- **[Security & SnapTap](Security)** - Learn exactly how your biometrics protect your funds.
 
 ---
 
-## 📖 What is FLIPPRX ONE?
+## 📖 What is the FLIPPRX Ecosystem?
 
-FLIPPRX ONE is an advanced wallet that combines:
+FLIPPRX is not just a ledger interface. It is a full ecosystem that abstracts DeFi into a suite of native **Mini-dApps (fApps)** accessible from a unified dashboard.
 
-- 🔐 **SnapTap WebAuth** - Dual-key NFC/biometric security
-- 🌐 **Multi-Chain** - XRPL, Solana, Supra, Bitcoin support
-- 💱 **Changelly Exchange** - Buy/sell crypto with fiat
-- 💎 **Tiered Fees** - Reduced fees for NFT holders
-- 🔄 **LP Trading** - Exclusive DeFi features
-- 💬 **MIMO Messenger** - Encrypted on-chain messaging
-- 🎨 **NFT Gallery** - Complete NFT management
-- 🔒 **Security Hardening** - DApp approval, clipboard protection, auto-lock
-- ⚡ **UX Enhancements** - Recent recipients, QR receive, MAX send, swipe nav
-
----
-
-## 🎯 Key Features
-
-### Security First
-- Dual-key encryption with AES-256-GCM
-- NFC/biometric authentication
-- 100% client-side, zero backend
-- Self-custodial architecture
-
-### Multi-Chain Ready
-- **XRPL** - Full XRP Ledger support
-- **Solana** - SOL and SPL token support with send, receive, and swap
-- **Supra** - Supra Network integration
-- **Bitcoin** - Bitcoin wallet activation (preview)
-
-### Premium Features
-- **Tiered Transaction Fees**
-  - NFT Holders: 0.05 XRP
-  - Non-Holders: 0.075 XRP
-  - 1/1 NFT Holders: FREE (28 exclusive NFTs)
-  
-- **LP Trading** (NFT Authorized)
-  - XRP/FLIPPRX Pool
-  - ECP/FLIPPRX Pool
-  - JNT/FLIPPRX Pool
-  - MFLIP/FLIPPRX Pool
-
----
-
-## 🌟 Getting Started
-
-### New Users
-1. Visit [one.flipprx.xyz](https://one.flipprx.xyz)
-2. Create a new wallet with SnapTap
-3. Backup your seed phrase securely
-4. Start using FLIPPRX ONE!
-
-### Existing Wallet Users
-Import your wallet using:
-- 12/24 word seed phrases
-- Family seeds (s...)
-- Xaman secret numbers
-
----
-
-## 📚 Documentation Sections
-
-### For Users
-- **[Getting Started Guide](Getting-Started)** - First-time setup
-- **[How to Use SnapTap](Security#snaptap-setup)** - Security setup
-- **[Sending Transactions](Transactions)** - Send XRP and tokens
-- **[NFT Management](NFT-Gallery)** - Manage your NFTs
-- **[Using Changelly](Exchange)** - Buy/sell crypto
-
-### For Developers
-- **[Technical Architecture](Architecture)** - System design
-- **[API Integration](API)** - Integration guide
-- **[Security Model](Security#technical-details)** - Encryption details
-
-### Advanced Features
-- **[LP Trading Guide](LP-Trading)** - Liquidity pool trading
-- **[Multi-Chain Setup](Multi-Chain)** - Activate Solana/Supra/Bitcoin
-- **[MIMO Messenger](MIMO)** - Encrypted messaging
-- **[Domain Depot](Domains)** - On-chain domains
+- 🔐 **SnapTap WebAuth KMS** - Ditch the 12-word seeds for biometric encryption.
+- 🌐 **Multi-Chain Native** - Manage XRPL, Solana (SPL), and Bitcoin (BTC Native SegWit).
+- 🎨 **FLIPPRX Marketplace** - Discover, buy, and sell official FLIPPRX NFTs natively.
+- 💬 **Advanced XRPL Tools** - Use Payment Checks, Escrows (Scheduled Sends), and Domains seamlessly.
+- 🛡️ **Encryption Suite** - Secure your physical life with Encrypted Notes and Guardian Recovery.
 
 ---
 
 ## 🔗 Important Links
 
 - 🌐 **Live Wallet**: [one.flipprx.xyz](https://one.flipprx.xyz)
-- 📱 **GitHub Repository**: [cryptoprx/flipprxone](https://github.com/cryptoprx/flipprxone)
 - 🐦 **Twitter**: [@_flipprx_](https://twitter.com/_flipprx_)
 - 💬 **Telegram**: [t.me/flipprx](https://t.me/flipprx)
 - 📧 **Support**: admin@croak.work
@@ -111,29 +37,10 @@ Import your wallet using:
 
 ## ⚠️ Security Notice
 
-**FLIPPRX ONE is self-custodial:**
-- You control your private keys
-- Always backup your seed phrase
-- Never share your seed with anyone
-- We cannot recover lost seeds
-- Enable SnapTap for maximum security
+**FLIPPRX is fully self-custodial:**
+- You alone control your private keys via your device's Secure Enclave.
+- We have no backend servers processing your keys.
+- **We cannot recover lost keys if your device is permanently destroyed and no Guardians are set.**
+- Always enable SnapTap and Guardian Multi-Sig for maximum security.
 
----
-
-## 🤝 Community
-
-Join our growing community:
-- Share feedback and suggestions
-- Report bugs or issues
-- Contribute to development
-- Help other users
-
-**Built with ❤️ for the XRPL & FLIPPRX Community**
-
----
-
-## 📄 License
-
-FLIPPRX ONE is open source under the MIT License.
-
-© 2026 FLIPPRX ONE. CROAKWORKS. All rights reserved.
+**Built with ❤️ for the Web3 Community**

@@ -1,399 +1,131 @@
 <div align="center">
 
-![FLIPPRX ONE Banner](images/banner.png)
+![FLIPPRX Wallet Hero](images/hero.png)
 
-### Next-Generation XRPL Wallet with SnapTap Security
+### The Gateway to DeFi: Next-Gen XRPL Architecture
 
-**Secure • Multi-Chain • Feature-Rich**
+**Zero-Registration • SnapTap Security • Built-In dApps**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![XRPL](https://img.shields.io/badge/XRPL-Mainnet-blue.svg)](https://xrpl.org/)
+[![Solana](https://img.shields.io/badge/Solana-Mainnet-purple.svg)](https://solana.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
 
-[🌐 Live Demo](https://one.flipprx.xyz) • [📖 Documentation](https://github.com/cryptoprx/flipprxone) • [💬 Community](https://t.me/flipprx)
+[🌐 Web App](https://one.flipprx.xyz) • [💬 Community](https://t.me/flipprx)
 
 ---
 
 </div>
 
-## ✨ What is FLIPPRX ONE?
+## ✨ What is FLIPPRX Wallet?
 
-<div align="center">
-<img src="images/flipprx.png" alt="FLIPPRX" width="100"/>
-</div>
+**FLIPPRX Wallet** is an advanced, non-custodial wallet ecosystem running entirely inside your browser. No extensions. No accounts. With unparalleled **SnapTap WebAuth** security, a gorgeous glassmorphic interface, and a massive library of built-in Mini-dApps, FLIPPRX abstracts away the hard parts of crypto so you can focus on trading, collecting, and managing your portfolio.
 
-**FLIPPRX ONE** is an advanced, self-custodial wallet built for the XRP Ledger with multi-chain support. Featuring revolutionary SnapTap WebAuth security, tiered transaction fees, integrated crypto exchange, NFT marketplace, and cross-chain capabilities for Solana, Supra, and Bitcoin networks.
+### 🎯 Core Audience
 
-### 🎯 Built For
-
-- 💰 **XRP & Multi-Chain Users** - Manage XRP, Solana, Supra, and Bitcoin assets
-- 🪙 **FLIPPRX Token Holders** - Premium features and reduced fees
-- 🔄 **DeFi Traders** - Exclusive LP trading with NFT authorization
-- 🎨 **NFT Collectors** - Full gallery, marketplace, and pack system
-- � **Crypto Traders** - Built-in Changelly exchange integration
+- 🌐 **Web3 Explorers** - Interact across XRPL, Solana, and Bitcoin cleanly without juggling extensions.
+- 🎨 **NFT Collectors** - A full built-in marketplace with zero-fee utility bonds.
+- 🔒 **Privacy Advocates** - Nothing touches our servers; no email signup required.
+- ⚡ **Power Traders** - Live price backgrounds, instantaneous RPC nodes, and max send metrics.
 
 ---
 
-## 🔐 Security First: SnapTap Technology
+## 🔐 Military-Grade Security: SnapTap
 
 <div align="center">
 <img src="images/snap.png" alt="SnapTap" width="120"/>
 </div>
 
-FLIPPRX ONE features **SnapTap WebAuth** - revolutionary security that combines:
+Forget storing insecure 12-to-24-word seeds. FLIPPRX introduces **SnapTap KMS**:
 
-| Feature | Benefit |
+| Technology | Action |
 |---------|---------|
-| 🔑 **Dual-Key Encryption** | Requires both device + NFC/biometric authentication |
-| 🛡️ **AES-256-GCM** | Military-grade encryption with HKDF key derivation |
-| 📱 **100% Client-Side** | Your keys never touch any server |
-| 🔒 **Zero Backend** | Completely self-custodial architecture |
+| 🔑 **WebAuthn Biometrics** | Keys are sealed inside your device's Secure Enclave (FaceID / Windows Hello). |
+| 🛡️ **AES-256-GCM** | Military-grade encryption payload derived locally via HKDF. |
+| 📱 **Zero Backend** | 100% Client-Side. We don't have servers that hold keys—ever. |
+| 👥 **Guardian Recovery** | Built-in Multi-Sig contact tools for device recovery. |
 
-> **Your keys. Your crypto. Your control.**
-
----
-
-## 🌟 Core Features
-
-### 💼 Complete Wallet Functionality
-
-<table>
-<tr>
-<td width="50%">
-
-#### 📤 Send & Receive
-- ✅ XRP, SOL, and SUPRA transactions
-- ✅ FLIPPRX and SPL tokens
-- ✅ All XRPL and Solana tokens
-- ✅ Real-time balance updates with animated numbers
-- ✅ Recent recipients for quick re-sends
-- ✅ MAX button and live USD equivalent
-- ✅ Transaction receipts (copy & share)
-
-</td>
-<td width="50%">
-
-#### 🔄 Import Options
-- ✅ 12/24 word seed phrases
-- ✅ Family seeds (s...)
-- ✅ ed25519 & secp256k1 support
-- ✅ Secure backup system
-
-</td>
-</tr>
-</table>
-
-### 🎨 NFT Gallery
-
-- 🖼️ **View Your Collection** - Beautiful NFT display
-- 🌐 **Domain Integration** - On-chain domains for 2M+ FLIPPRX holders
-- 🔍 **Detailed Metadata** - Full NFT information
-- 📊 **Portfolio Tracking** - Monitor your NFT holdings
-
-### 💱 Micro LP Trading (NFT Authorized)
-
-Exclusive DeFi features for authorized NFT holders:
-
-- 🔄 **Liquidity Pools** - XRP/FLIPPRX, ECP/FLIPPRX, JNT/FLIPPRX, MFLIP/FLIPPRX
-- 🔐 **NFT Authorization** - Access requires specific FLIPPRX NFTs
-- 💧 **Deposit & Withdraw** - Manage LP tokens seamlessly
-- 🔀 **AMM Integration** - Trade directly through automated market makers
-- 📈 **Real-Time Rates** - Live pricing and pool statistics
-
-### 💬 MIMO Messenger
-
-**End-to-end encrypted messaging on XRPL**
-
-- 🔐 **Private & Secure** - Messages encrypted on-chain
-- 🔔 **Real-Time Notifications** - Never miss a message
-- 👥 **Contact Management** - Organize your network
-- 💬 **XRPL Native** - Built directly on the ledger
-
-### 🌍 Bilingual Support
-
-**Complete Spanish Language Support**
-
-- 🇺🇸🇪🇸 **English & Spanish** - Full UI translation with 350+ keys
-- 🔄 **Real-Time Switching** - Instant language toggle in settings
-- 💾 **Persistent Preference** - Language choice saved locally
-- 🌐 **Complete Coverage** - All features translated
-
-### 💱 Changelly Exchange Integration
-
-**Buy & Sell Crypto with Fiat**
-
-- 💳 **Buy Crypto** - Purchase XRP and other cryptocurrencies with fiat
-- 💵 **Sell Crypto** - Convert crypto to fiat currency
-- 🌍 **Global Support** - Multiple countries and payment methods
-- 🔒 **Secure** - Integrated Changelly API with address validation
-
-### 🔒 Security Hardening
-
-**Defense-in-depth for your assets:**
-
-- 🛡️ **Server-Side Validation** - All API routes hardened with strict input validation
-- ✅ **DApp Approval Modal** - Transactions from connected dApps require explicit confirmation
-- 📋 **Clipboard Protection** - Visual confirmation when pasting addresses to prevent hijacking
-- ⏱️ **Auto-Lock** - Wallet locks after inactivity period for safety
-- 🧹 **Input Sanitization** - Contact names and inputs stripped of injection attempts
-
-### ⚡ UX Enhancements
-
-**Faster, smoother, more intuitive:**
-
-- 📇 **Recent Recipients** - Last 3 addresses shown for quick re-sends
-- 📱 **QR Receive** - One-tap QR code from dashboard for any network
-- 💵 **MAX Button** - Auto-fill max sendable amount on sends
-- 📊 **Live USD** - Real-time dollar value while typing amounts
-- 🧾 **Transaction Receipts** - Copy shareable receipt after sending
-- 🏷️ **Network Badge** - Always see which blockchain is active
-- 👆 **Swipe Navigation** - Swipe between tabs on mobile
-- ✨ **Animated Balances** - Smooth number transitions and shimmer loading
+> **If your device is lost or compromised, your biometrics keep your funds inaccessible.**
 
 ---
 
-## 💎 Premium Features
+## 🌟 The fApp Ecosystem
 
-### ⚡ Tiered Transaction Fees
+Why leave the wallet to use DeFi? Navigate to the "Apps" tab to seamlessly load FLIPPRX's fully localized, native toolkit:
 
-**Reduced fees for FLIPPRX NFT holders:**
+### 🏪 Marketplace & Commerce
+- **FLIPPRX Marketplace:** Discover, buy, and sell official FLIPPRX NFTs. Features live global sales filtering, advanced Rarity scanning, and zero-fee bonding options—embedded right into the SPA.
+- **Convert Dust (Recycle):** Turn tiny, unusable leftover asset balances scattered across trustlines into useable FLIPPRX tokens instantly.
 
-- 🎫 **NFT Holders**: 0.05 XRP per transaction
-- 👤 **Non-Holders**: 0.075 XRP per transaction  
-- 🌟 **1/1 NFT Holders**: Complete fee exemption (28 exclusive NFTs)
-- 💰 **Fair & Transparent** - Support wallet development
+### 🔐 Tools & Security
+- **Encrypted Notes:** A highly secure notepad protected by the exact same biometric WebAuthn security as your crypto keys.
+- **Account Recovery (Guardian):** Rely on trusted Multi-Sig contacts if you ever lose your device.
+- **Address Book:** Save and format frequently used addresses globally (XRPL, Solana, BTC) safely.
+- **Account Tools:** Toggle advanced ledger options like DID identity flags and Deposit Preauth.
 
-### 🌐 Multi-Chain Support
+### 🏦 Advanced DeFi (XRPL Exclusives)
+- **Payment Checks:** Draft a digital check on-chain. Send XRP to a recipient that they can cash whenever they want—or cancel it.
+- **Scheduled Send (Escrow):** Cryptographically lock assets to be delivered on a future date.
+- **Domains Manager:** Effortlessly retrieve and manage your on-chain `.flipprx` domain mapped directly via your `AccountRoot`!
 
-**Beyond XRPL - Manage Multiple Blockchains:**
+### 🌍 Explore
+- **FLIPPRX Radio:** Built-in seamless audio rotation for curated focus beats.
+- **Portfolio Tracker:** Watch live distribution curves of your holdings.
+- **Fork DAO:** Join the blockchain governance node and manage your DAO tier.
+
+---
+
+## ⚡ Multi-Chain Mastery
 
 <div align="center">
 <img src="images/xrp.png" alt="XRP" width="60"/>
 <img src="images/solana.png" alt="Solana" width="60"/>
-<img src="images/supra.png" alt="Supra" width="60"/>
+<img src="images/btc.png" alt="Bitcoin" width="60"/>
 </div>
 
-- ◎ **Solana Network** - Full SOL and SPL token support with send, receive, and swap
-- ⚡ **Supra Network** - Activate Supra wallet from your XRPL seed
-- ₿ **Bitcoin** - Bitcoin wallet activation and transactions (preview)
-- 🔄 **Network Switcher** - Seamless switching between all chains from one interface
-- 🔐 **Unified Security** - Same SnapTap security across all chains
+FLIPPRX supports fully independent multi-network architectures within the same single-page application experience:
 
-## 🚀 Why Choose FLIPPRX ONE?
+- ✖️ **XRPL** - Blazing fast core ledger with token trustline handling, Escrow, Checks, and Multi-Sign functions.
+- ◎ **Solana** - High-speed handling, multi-account persistence, and integrated SPL tracking.
+- ₿ **Bitcoin** - Dedicated Native SegWit wallet tracking for top tier store-of-value integration.
+
+> **Seamlessly switch networks from the unified dashboard header drop-down.**
+
+---
+
+## 🎨 Immersive Design: Glassmorphism UX
+
+Crypto apps shouldn't be boring spreadsheets. 
+
+- **Live Animated Interfaces:** Everything is wrapped in `framer-motion` for buttery smooth screen transitions. 
+- **Glass-Card Aesthetics:** Outdated brutalism is gone. Enjoy premium translucent panels mapping out your wealth.
+- **Background Price Alerts:** Get price fluctuations triggered directly inside your wallet via browser notification layers.
+- **Unified Dashboards:** Whether you are sweeping dust, adjusting Settings, or exploring the Marketplace, the UI never kicks you to external windows.
+
+---
+
+## 🖥 100% Free & Open End-Point Architecture
+
+- ✅ **Self-Custodial** - We literally could not freeze your wallet if we tried.
+- ✅ **No Tracking** - No Google Analytics. No session cookies. 
+- ✅ **On-Chain Truth** - We don't rely on middleware servers. We run direct RPC calls to public ledgers. 
+- ✅ **No Installations** - Works flawlessly on iOS Safari, Android Chrome, and Desktop Web Environments identically.
+
+---
+
+## 🚀 Get Started Now
+
+1. **Launch**: Open [FLIPPRX Wallet](https://one.flipprx.xyz)
+2. **Create**: Choose WebAuthn / Password Setup.
+3. **Bridge/Send**: Fund your newly created local address.
+4. **Explore**: Dive right into the Marketplace and native DeFi dApps.
 
 <div align="center">
 
-| Traditional Wallets | FLIPPRX ONE |
-|:-------------------:|:-----------:|
-| Password only | 🔐 SnapTap Dual-Key + Biometric |
-| Single chain | 🌐 Multi-chain (XRPL, Solana, Supra, Bitcoin) |
-| No exchange | 💱 Built-in Changelly |
-| Limited NFT support | 🎨 Full gallery + marketplace + packs |
-| No messaging | 💬 Encrypted MIMO messenger |
-| Standard fees | 💎 Tiered fees for NFT holders |
-| No address memory | 📇 Recent recipients + address book |
-| Manual amounts | 💵 MAX button + live USD value |
-
-</div>
-
----
-
-## 🎮 How It Works
-
-### 1️⃣ Create or Import Your Wallet
-
-Choose your preferred method:
-- 🆕 **Create New** - Generate a secure wallet with SnapTap
-- 📥 **Import Existing** - Use seed phrase, family seed, or Xaman numbers
-- 🔒 **Secure Backup** - Save your recovery phrase safely
-
-### 2️⃣ Authenticate Securely
-
-- 📱 **WebAuth** - Tap NFC tag or use device biometrics
-- 🔑 **Password** - Traditional password option available
-- ✅ **Transaction Signing** - Every action requires authentication
-
-### 3️⃣ Manage Your Assets
-
-- 💰 **View Balances** - Real-time XRP, SOL, and token balances across chains
-- 📤 **Send Payments** - Quick transactions with recent recipients and MAX button
-- 📱 **QR Receive** - One-tap QR code for any network from dashboard
-- 🔄 **Trade LP Tokens** - Access exclusive Micro LP pools (NFT required)
-- 💱 **Buy/Sell Crypto** - Integrated Changelly exchange
-- 💬 **Message Contacts** - Secure MIMO messenger
-- 🎨 **Browse NFTs** - Your complete collection
-- 📦 **Open Packs** - Purchase and reveal NFT packs
-- 👆 **Swipe Navigation** - Swipe between tabs on mobile
-
----
-
-## 🛠️ Technology Stack
-
-Built with modern, battle-tested technologies:
-
-- ⚛️ **Next.js 15** - React framework for production
-- 🔐 **SnapTap WebAuth** - NFC/biometric authentication
-- 🌐 **xrpl.js** - Official XRPL JavaScript library
-- ◎ **@solana/web3.js** - Solana blockchain integration
-- ⚡ **Supra L1 SDK** - Supra blockchain integration
-- 💱 **Changelly API** - Crypto exchange integration
-- 🌍 **i18n System** - Custom translation system with 350+ keys
-- 🔒 **Web Crypto API** - Browser-native encryption
-- 🎨 **Tailwind CSS** - Modern, responsive design
-- 💾 **Prisma + PostgreSQL** - Domain Depot database
-- 🔊 **Sound Effects** - Enhanced UX with audio feedback
-
----
-
-## 📱 Platform Support
-
-<div align="center">
-
-| Platform | Support |
-|:--------:|:-------:|
-| 🌐 **Web** | ✅ Full Support |
-| 💻 **Desktop** | ✅ All Browsers |
-| 📱 **Mobile** | ✅ Responsive Design |
-| 🔐 **NFC** | ✅ WebAuth Compatible |
-
-</div>
-
----
-
-## 🔒 Security & Privacy
-
-### Our Commitment
-
-- ✅ **Self-Custodial** - You control your private keys
-- ✅ **No Data Collection** - Zero tracking or analytics
-- ✅ **Open Source** - Transparent and auditable
-- ✅ **Client-Side Only** - No server-side key storage
-- ✅ **Encrypted Everything** - AES-256-GCM encryption
-
-### ⚠️ Important Security Notes
-
-> 🔐 **Always backup your seed phrase** - Store it securely offline  
-> 🚫 **Never share your seed** - No one legitimate will ask for it  
-> ✅ **You are in control** - This is true self-custody  
-> 🔒 **Enable SnapTap** - Maximum security with dual-key authentication
-
----
-
-## 🌍 For the Community
-
-FLIPPRX ONE is built by the community, for the community:
-
-- 👥 **2M+ FLIPPRX Domain** - Exclusive features and domains
-- 🤝 **Open Source** - Contribute and improve
-- 💡 **Community Driven** - Your feedback shapes development
-- 🌐 **Global Access** - Available worldwide, no restrictions
-
----
-
-## 🚀 Getting Started
-
-### Quick Start
-
-1. **Visit the Wallet** - [Launch FLIPPRX ONE](#)
-2. **Create/Import** - Set up your wallet in seconds
-3. **Secure It** - Enable SnapTap for maximum security
-4. **Start Using** - Send, receive, trade, and message!
-
-### No Installation Required
-
-FLIPPRX ONE runs entirely in your browser. No downloads, no installations, no hassle.
-
----
-
-## 🤝 Community & Support
-
-<div align="center">
-
-### Join Our Growing Community
-
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/_flipprx_)
-[![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/flipprx)
-
-</div>
-
----
-
-## 🎯 Feature Highlights
-
-### ✅ Fully Implemented
-- ✅ **SnapTap WebAuth** - Dual-key NFC/biometric security
-- ✅ **Multi-Chain** - XRPL, Solana, Supra, Bitcoin support
-- ✅ **Bilingual Support** - Complete English & Spanish translation (350+ keys)
-- ✅ **Security Hardening** - Server-side validation, DApp approval, clipboard protection, auto-lock
-- ✅ **Tiered Fees** - Reduced fees for NFT holders
-- ✅ **Changelly Exchange** - Buy/sell crypto with fiat
-- ✅ **LP Trading** - NFT-authorized liquidity pools
-- ✅ **NFT Gallery** - View and manage your NFT collection
-- ✅ **NFT Search & Offers** - Search wallets and check incoming transfers
-- ✅ **MIMO Messenger** - Encrypted on-chain messaging
-- ✅ **DApp Connector** - Connect to XRPL dApps with approval modal
-- ✅ **Transaction History** - Complete audit trail with status tracking
-- ✅ **Trustline Manager** - Easy token management with LP support
-- ✅ **Domain Manager** - 2MCLUB domain claiming for holders
-- ✅ **UX Enhancements** - Recent recipients, QR receive, MAX send, swipe nav, animated balances
-- ✅ **Sound Effects** - Enhanced user experience
-- ✅ **Address Validation** - Real-time crypto address verification
-
-### 🚧 In Progress
-- 🔄 **NFT Pack Marketplace** - Purchase and reveal collectible NFT packs with RLUSD
-- 🔄 **Domain Depot** - Genesis domain system for FLIPPRX holders
-- 🔄 Additional Solana DeFi integrations
-- 🔄 Enhanced NFT features
-- 🔄 Advanced trading tools and charting
-- 🔄 Mobile app (PWA) optimization
-- 🔄 Portfolio analytics dashboard
-
----
-
-## 💎 Powered By
-
-<div align="center">
-
-### SnapTap Security Technology
-
-Revolutionary NFC/WebAuth authentication for unparalleled security.
-
-**Learn more:** [snap.croak.work](https://snap.croak.work)
-
-</div>
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## ⚡ Quick Links
-
-- 🌐 **Website** - [flipprx.one](#)
-- 📱 **Launch Wallet** - [one.flipprx.xyz](#)
-- 📖 **Documentation** - [flipprx.xyz](#)
-- 💬 **Support** - [admin@croak.work](#)
-- 🐦 **Twitter** - [@_flipprx_](https://x.com/_flipprx_)
-
----
-
-<div align="center">
-
-### 🌟 Star This Repository
-
-If you find FLIPPRX ONE useful, please consider giving it a star! ⭐
-
-**Built with ❤️ for the XRPL & FLIPPRX Community**
+**Built with ❤️ for the Web3 Community**
 
 <img src="images/CROAKWORKS.png" alt="CROAKWORKS" width="150"/>
 
----
-
-© 2026 FLIPPRX ONE. CROAKWORKS. All rights reserved.
-
-**Your Keys. Your Crypto. Your Future.**
+© 2026 FLIPPRX. CROAKWORKS.
 
 </div>

@@ -1,482 +1,75 @@
-# Security Guide
+# Security Architecture
 
-FLIPPRX ONE is built with security as the top priority. This guide explains our security architecture and best practices.
+FLIPPRX Wallet does not behave like traditional custodial bank apps, nor does it behave like typical web-extension crypto wallets. Our security architecture assumes maximum hostility from the environment.
 
 ---
 
-## 🔐 SnapTap WebAuth Security
+## 🔐 1. Zero-Backend Architecture
 
-### What is SnapTap?
-
-**SnapTap** is a revolutionary dual-key authentication system that combines:
-
-1. **Device Key** - Generated and stored on your device
-2. **Authentication Key** - Created via NFC tap or biometric scan
-
-**Both keys are required** to decrypt your wallet, providing unparalleled security.
-
-### How It Works
-
-```
-Your Wallet = Device Key + Authentication Key
+```mermaid
+graph LR
+    A[Your Browser Context] -->|Direct RPC| B[XRPL/Solana Public Nodes]
+    A -.->|No Connection| C[FLIPPRX Servers]
 ```
 
-**Device Key:**
-- Generated using Web Crypto API
-- Stored in encrypted browser storage
-- Never transmitted
-- Unique per device
-
-**Authentication Key:**
-- Created via WebAuth API
-- Requires NFC tap or biometric scan
-- Ephemeral (temporary)
-- Cannot be stolen remotely
-
-### Security Benefits
-
-| Attack Type | Traditional Password | SnapTap |
-|-------------|---------------------|---------|
-| Phishing | ❌ Vulnerable | ✅ Protected |
-| Keylogging | ❌ Vulnerable | ✅ Protected |
-| Device Theft | ❌ Vulnerable | ✅ Protected |
-| Remote Attack | ❌ Vulnerable | ✅ Protected |
-| Brute Force | ⚠️ Possible | ✅ Impossible |
+**We don't know who you are, and we don't know your keys.**
+There is no database server maintained by FLIPPRX holding your credentials, emails, or seed phrases. The entire Single Page Application (HTML/JS/CSS) is delivered to your browser, at which point your browser natively connects directly to the blockchain.
 
 ---
 
-## 🛡️ Encryption Standards
+## 📱 2. SnapTap WebAuth KMS
 
-### AES-256-GCM
+The foundational vulnerability of Crypto is the "Seed Phrase". If malware reads your clipboard while copying it, or someone takes a photo of your paper backup, your money is gone instantly.
 
-**Military-Grade Encryption**
+### The Solution: Web Authentication standard (WebAuthn)
 
-- **Algorithm**: AES-256-GCM (Galois/Counter Mode)
-- **Key Length**: 256 bits
-- **Authentication**: Built-in authenticated encryption
-- **Standard**: NIST approved, industry standard
+When you initialize a wallet using **SnapTap**:
+1. An Entropy Seed is mathematically calculated locally in your browser's Web Crypto module.
+2. We trigger the native `navigator.credentials.create()` API.
+3. Your device's **Secure Enclave** (a physically isolated hardware chip within your phone/computer used for FaceID/TouchID/Windows Hello) accepts the request.
+4. The Enclave creates an asymmetric keypair. It uses this to encrypt your Wallet Seed.
+5. The raw Wallet Seed is wiped from browser memory.
+6. The *Encrypted* Payload is saved to your browser's local storage.
 
-**Features:**
-- Prevents tampering
-- Detects unauthorized modifications
-- Constant-time operations
-- Hardware-accelerated
+### Why is this revolutionary?
+Even if a hacker steals your phone, bypasses your lock screen, and extracts the encrypted payload from your browser's data directory... it's completely useless. The only way to decrypt the payload to sign a transaction is to **send it back to the Secure Enclave**, which will immediately prompt for a biometric facial scan or fingerprint. 
 
-### HKDF Key Derivation
-
-**Secure Key Generation**
-
-- **Algorithm**: HKDF (HMAC-based Key Derivation Function)
-- **Iterations**: 100,000
-- **Salt**: Random 16-byte salt per wallet
-- **Output**: Cryptographically secure keys
-
-**Benefits:**
-- Prevents rainbow table attacks
-- Unique keys per wallet
-- Forward secrecy
-- Resistant to brute force
-
-### Web Crypto API
-
-**Browser-Native Security**
-
-All cryptographic operations use the Web Crypto API:
-- Hardware-accelerated
-- Secure random number generation
-- Constant-time operations
-- No external dependencies
+**Result: True Phishing-Resistant Hardware Security, built into your browser.**
 
 ---
 
-## 🔑 Key Management
+## 🛡️ 3. UI/UX Protection Mechanisms
 
-### Private Key Storage
-
-**Your private keys are:**
-- ✅ Encrypted with AES-256-GCM
-- ✅ Stored only in browser storage
-- ✅ Never transmitted to any server
-- ✅ Protected by dual-key system
-
-**We cannot:**
-- ❌ Access your private keys
-- ❌ Decrypt your wallet
-- ❌ Recover your funds
-- ❌ See your seed phrase
-
-### Seed Phrase Security
-
-**Your seed phrase is the master key:**
-
-**Critical Rules:**
-1. ✅ Write it down on paper
-2. ✅ Store in multiple secure locations
-3. ✅ Keep it offline
-4. ❌ Never share with anyone
-5. ❌ Never store digitally
-6. ❌ Never take photos
-
-**Recovery:**
-- Your seed phrase can restore your entire wallet
-- Without it, funds cannot be recovered
-- Even we cannot help without your seed phrase
-
----
-
-## 🔒 Self-Custodial Architecture
-
-### Zero Backend
-
-**100% Client-Side**
-
-```
-Your Device → XRPL Network
-     ↓
-  No Server
-  No Database
-  No Intermediary
-```
-
-**Benefits:**
-- No server to hack
-- No data to leak
-- No third-party risk
-- Complete privacy
-
-### Direct XRPL Connection
-
-**Peer-to-Peer**
-
-- Direct WebSocket to XRPL nodes
-- No intermediary servers
-- Transactions signed locally
-- Immediate blockchain submission
-
----
-
-## 🌐 Network Security
-
-### HTTPS Only
-
-**Encrypted Connections**
-
-- TLS 1.3 protocol
-- Certificate pinning
-- No mixed content
-- Secure by default
-
-### Content Security Policy (CSP)
-
-**XSS Protection**
-
-Strict CSP headers prevent:
-- Cross-site scripting (XSS)
-- Code injection
-- Unauthorized connections
-- Data exfiltration
-
-**Allowed Connections:**
-- XRPL mainnet nodes
-- XRPL testnet nodes
-- Official XRPL explorers
-- Verified API endpoints
-
-### Rate Limiting
-
-**DDoS Protection**
-
-- API routes: 30-60 requests/minute
-- Prevents abuse
-- Fair usage enforcement
-- Automatic throttling
-
----
-
-## 🛡️ Application Security (v1.3.0+)
-
-### Server-Side Input Validation
-
-All 14 API routes hardened with strict validation:
-- Address format verification before processing
-- Amount range and type checking
-- Payload size limits
-- Rejection of malformed requests
-
-### DApp Transaction Approval
-
-Connected dApps cannot silently submit transactions:
-- **Approval Modal** - Every DApp transaction shows amount, destination, and memo for review
-- **Explicit Confirm/Reject** - Users must tap Approve before any transaction is signed
-- **Origin Validation** - Only trusted origins can request transactions
+While SnapTap protects your keys at rest, FLIPPRX employs multiple UI mechanisms to protect you in transit:
 
 ### Clipboard Hijack Protection
+Malware often monitors a computer's clipboard. When you copy an address `rFriendXYZ...`, the malware swaps it to the attacker's address `rAttacker123...`. 
+When you paste an address into our Send Modals, FLIPPRX flashes a visual toast confirmation specifically alerting you to the string payload detected, forcing you to verify it wasn't manipulated.
 
-Malware can replace copied addresses with attacker addresses:
-- **Paste Confirmation** - Visual toast appears when pasting into address fields
-- **All Send Forms** - Protection on XRP, Solana, and Supra send inputs
-- **Exchange Forms** - Recipient address field also protected
-
-### Auto-Lock / Session Timeout
-
-Wallet locks after inactivity to prevent unauthorized access:
-- Configurable timeout period
-- Requires re-authentication to unlock
-- Session manager tracks activity
-
-### Input Sanitization
-
-All user-facing text inputs are sanitized:
-- HTML tags stripped from contact names and tags
-- Length limits enforced (50 chars name, 30 chars tag)
-- Prevents XSS injection through address book entries
+### Automatic Inactivity Locking
+If you leave a browser tab open, your session will naturally expire and the state container will wipe the decrypted ephemeral keys. Re-entering the dashboard requires tapping the "Unlock" button, which fires the biometric WebAuthn prompt again.
 
 ---
 
-## 🎯 Best Practices
+## 👥 4. Guardian Multi-Sig (Recovery)
 
-### For Maximum Security
+Because SnapTap seals keys to physical hardware chips, what happens if you drop your phone in the ocean? 
+With traditional wallets, you're out of luck unless you wrote down your seed. 
 
-#### 1. Use SnapTap WebAuth
-
-**Enable dual-key authentication:**
-- Setup biometric authentication
-- Or use NFC tag
-- Provides maximum protection
-- Phishing resistant
-
-#### 2. Secure Your Seed Phrase
-
-**Backup properly:**
-- Write on paper (not digital)
-- Store in safe/vault
-- Keep multiple copies
-- Test recovery process
-
-#### 3. Verify Addresses
-
-**Before sending:**
-- Double-check recipient address
-- Verify amount
-- Confirm transaction details
-- Transactions are irreversible
-
-#### 4. Keep Software Updated
-
-**Stay current:**
-- Update your browser
-- Keep OS updated
-- Enable automatic updates
-- Use latest wallet version
-
-#### 5. Use Strong Device Security
-
-**Protect your device:**
-- Enable device encryption
-- Use strong device password
-- Enable biometric lock
-- Keep device secure
-
-### What to Avoid
-
-#### ❌ Never Share Your Seed
-
-- No one legitimate will ask for it
-- Not support staff
-- Not developers
-- Not anyone
-
-#### ❌ Don't Use Public Computers
-
-- Avoid public WiFi for transactions
-- Don't use shared computers
-- Use your personal device
-- Use trusted networks
-
-#### ❌ Beware of Phishing
-
-**Red flags:**
-- Emails asking for seed phrase
-- Fake wallet websites
-- Suspicious links
-- Too-good-to-be-true offers
-
-**Always verify:**
-- URL is correct: one.flipprx.xyz
-- HTTPS connection
-- Official social media links
-
-#### ❌ Don't Install Unknown Extensions
-
-- Browser extensions can access data
-- Only install from official sources
-- Review permissions carefully
-- Keep extensions minimal
+FLIPPRX relies on the ultimate recovery mechanism: **On-Chain Multi-Signature Guardians**.
+Instead of trusting a piece of paper in your sock drawer, you can use the built-in `Account Recovery` fApp.
+1. You assign trusted XRPL ledger addresses to your account (e.g., your spouse's wallet, a hardware ledger in your safe, a trusted friend).
+2. If you lose your primary device, you load FLIPPRX on a brand new phone and create a completely new wallet.
+3. Your Guardians formulate a transaction passing ownership of your old funds to your new phone.
+4. Once the threshold of Guardians signs off, control is restored.
 
 ---
 
-## 🚨 Security Checklist
+## 🚨 Summary Matrix
 
-### Initial Setup
-
-- [ ] Created wallet with SnapTap
-- [ ] Wrote down seed phrase on paper
-- [ ] Stored backup in secure location
-- [ ] Verified backup by restoration test
-- [ ] Enabled device security
-
-### Regular Maintenance
-
-- [ ] Browser is up to date
-- [ ] Device OS is updated
-- [ ] Reviewed transaction history
-- [ ] No suspicious activity detected
-- [ ] Seed phrase still secure
-
-### Before Each Transaction
-
-- [ ] Verified recipient address
-- [ ] Double-checked amount
-- [ ] Confirmed network fees
-- [ ] Reviewed transaction details
-- [ ] Authenticated with SnapTap
-
----
-
-## 🔍 Security Audits
-
-### Current Status
-
-- ✅ Internal security review completed
-- ✅ Peer code review
-- ✅ Penetration testing
-- 🔄 Third-party audit (planned)
-
-### Continuous Monitoring
-
-- Automated security scanning
-- Dependency vulnerability checks
-- Code quality analysis
-- Regular security updates
-
----
-
-## 🐛 Reporting Security Issues
-
-### Responsible Disclosure
-
-Found a security vulnerability? We appreciate responsible disclosure.
-
-**Contact:** security@flipprx.one
-
-**Please Include:**
-- Detailed description
-- Steps to reproduce
-- Potential impact
-- Suggested fix (if any)
-
-**We Promise:**
-- Acknowledgment within 24 hours
-- Regular updates on progress
-- Credit for responsible disclosure
-- No legal action for good-faith research
-
----
-
-## 📊 Security Comparison
-
-### FLIPPRX ONE vs Traditional Wallets
-
-| Feature | Traditional | FLIPPRX ONE |
-|---------|------------|-------------|
-| Authentication | Password only | Dual-key + Biometric |
-| Encryption | Varies | AES-256-GCM |
-| Key Storage | Server/Device | Device only |
-| Phishing Protection | ❌ | ✅ |
-| Self-Custodial | Sometimes | Always |
-| Open Source | Varies | ✅ |
-| No Data Collection | Varies | ✅ |
-
----
-
-## 🎓 Security Education
-
-### Understanding Threats
-
-**Common Attack Vectors:**
-
-1. **Phishing**
-   - Fake websites
-   - Malicious emails
-   - Social engineering
-   - **Protection:** SnapTap WebAuth
-
-2. **Malware**
-   - Keyloggers
-   - Screen capture
-   - Clipboard hijacking
-   - **Protection:** Clipboard paste protection with visual confirmation toast
-
-3. **Social Engineering**
-   - Impersonation
-   - Fake support
-   - Urgency tactics
-   - **Protection:** Never share seed phrase
-
-4. **Physical Theft**
-   - Device stolen
-   - Shoulder surfing
-   - Lost hardware
-   - **Protection:** Device encryption + SnapTap
-
-### Staying Safe
-
-**General Tips:**
-- Trust but verify
-- If it seems too good to be true, it is
-- Take your time with transactions
-- When in doubt, ask the community
-- Keep learning about security
-
----
-
-## 📚 Additional Resources
-
-### Learn More
-
-- [XRPL Security Best Practices](https://xrpl.org/security)
-- [Web Crypto API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
-- [WebAuthn Guide](https://webauthn.guide/)
-
-### Community Resources
-
-- [FLIPPRX Telegram](https://t.me/flipprx)
-- [Security Discussions](https://github.com/cryptoprx/flipprxone/discussions)
-
----
-
-## ⚠️ Disclaimer
-
-**Your Responsibility:**
-
-You are responsible for:
-- Keeping your seed phrase secure
-- Protecting your device
-- Verifying transaction details
-- Maintaining backups
-- Following security best practices
-
-**We Cannot:**
-- Recover lost seed phrases
-- Reverse transactions
-- Access your wallet
-- Restore lost funds
-- Override blockchain rules
-
-**Use FLIPPRX ONE at your own risk.**
-
----
-
-**Security is a shared responsibility. We provide the tools, you protect your assets.** 🔐
-
-**Questions? Contact security@flipprx.one**
+| Threat Vector | Traditional Wallet | FLIPPRX Wallet |
+|-------------|---------------------|---------|
+| Clipboard Malware | ⚠️ Users Must Check | ✅ Visual Paste Validation |
+| Seed Phishing Website | ❌ Extremely Vulnerable | ✅ Impossible (WebAuthn binds to domain) |
+| Device Theft | ❌ Hardware Loss = Wipe | ✅ Biometric Lock prevents drain |
+| Server Database Hack | ❌ Severe Risk | ✅ Impossible (Zero Backend) |
