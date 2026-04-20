@@ -6,7 +6,6 @@
 
 **Zero-Registration • SnapTap Security • Built-In dApps**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![XRPL](https://img.shields.io/badge/XRPL-Mainnet-blue.svg)](https://xrpl.org/)
 [![Solana](https://img.shields.io/badge/Solana-Mainnet-purple.svg)](https://solana.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
