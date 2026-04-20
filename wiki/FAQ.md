@@ -98,4 +98,4 @@ If your device biometric module fails permanently (e.g., hardware damage), you m
 If you didn't find your answer here:
 
 1. Join our [Telegram community](https://t.me/flipprx)
-2. Contact support@flipprx.one
+2. Contact admin@croak.work
