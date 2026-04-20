@@ -119,6 +119,8 @@ Crypto apps shouldn't be boring spreadsheets.
 
 <div align="center">
 
+<img src="images/banner.png" alt="FLIPPRX Wallet Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+
 **Built with ❤️ for the Web3 Community**
 
 <img src="images/CROAKWORKS.png" alt="CROAKWORKS" width="150" style="margin-top: 20px;"/>
