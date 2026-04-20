@@ -6,9 +6,9 @@ Common questions about the FLIPPRX Wallet ecosystem answered.
 
 ## 🌐 General Questions
 
-### What is FLIPPRX Wallet?
+### What is FLIPPRX ONE Wallet (fONE)?
 
-FLIPPRX is an advanced, non-custodial wallet ecosystem running entirely in your browser. It features multi-chain support (XRPL, Solana, Bitcoin), a unified UI of built-in Mini-dApps, and utilizes revolutionary SnapTap WebAuth security. 
+**FLIPPRX ONE** (fONE) is an advanced, non-custodial wallet ecosystem running entirely in your browser. It features multi-chain support (XRPL, Solana, Bitcoin), a unified UI of built-in Mini-dApps, and utilizes revolutionary SnapTap WebAuth security. 
 
 ### Do I need to download an extension?
 

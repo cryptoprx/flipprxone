@@ -1,6 +1,6 @@
 # Security Architecture
 
-FLIPPRX Wallet does not behave like traditional custodial bank apps, nor does it behave like typical web-extension crypto wallets. Our security architecture assumes maximum hostility from the environment.
+FLIPPRX ONE (fONE) does not behave like traditional custodial bank apps, nor does it behave like typical web-extension crypto wallets. Our security architecture assumes maximum hostility from the environment.
 
 ---
 
@@ -67,7 +67,7 @@ Instead of trusting a piece of paper in your sock drawer, you can use the built-
 
 ## 🚨 Summary Matrix
 
-| Threat Vector | Traditional Wallet | FLIPPRX Wallet |
+| Threat Vector | Traditional Wallet | fONE Wallet |
 |-------------|---------------------|---------|
 | Clipboard Malware | ⚠️ Users Must Check | ✅ Visual Paste Validation |
 | Seed Phishing Website | ❌ Extremely Vulnerable | ✅ Impossible (WebAuthn binds to domain) |

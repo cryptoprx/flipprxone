@@ -1,12 +1,12 @@
-# Getting Started with FLIPPRX Wallet
+# Getting Started with FLIPPRX ONE Wallet (fONE)
 
-Welcome to FLIPPRX! Establishing your high-security profile takes less than 60 seconds.
+Welcome to FLIPPRX ONE! Establishing your high-security profile takes less than 60 seconds.
 
 ---
 
 ## 🚀 Step 1: Open the App
 
-Because FLIPPRX is a Single Page Application (SPA), there is nothing to download.
+Because fONE is a Single Page Application (SPA), there is nothing to download.
 Visit **[one.flipprx.xyz](https://one.flipprx.xyz)** on your Desktop, Tablet, or Mobile browser.
 
 ---

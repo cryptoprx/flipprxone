@@ -16,9 +16,9 @@
 
 </div>
 
-## ✨ What is FLIPPRX Wallet?
+## ✨ What is FLIPPRX ONE Wallet (fONE)?
 
-**FLIPPRX Wallet** is an advanced, non-custodial wallet ecosystem running entirely inside your browser. No extensions. No accounts. With unparalleled **SnapTap WebAuth** security, a gorgeous glassmorphic interface, and a massive library of built-in Mini-dApps, FLIPPRX abstracts away the hard parts of crypto so you can focus on trading, collecting, and managing your portfolio.
+**FLIPPRX ONE Wallet (fONE)** is an advanced, non-custodial wallet ecosystem running entirely inside your browser. No extensions. No accounts. With unparalleled **SnapTap WebAuth** security, a gorgeous glassmorphic interface, and a massive library of built-in Mini-dApps, fONE abstracts away the hard parts of crypto so you can focus on trading, collecting, and managing your portfolio.
 
 ### 🎯 Core Audience
 
@@ -110,7 +110,7 @@ Crypto apps shouldn't be boring spreadsheets.
 
 ## 🚀 Get Started Now
 
-1. **Launch**: Open [FLIPPRX Wallet](https://one.flipprx.xyz)
+1. **Launch**: Open [FLIPPRX ONE Wallet](https://one.flipprx.xyz)
 2. **Create**: Choose WebAuthn Security.
 3. **Fund**: Send XRP/SOL to activate your local address.
 4. **Explore**: Dive right into the Marketplace and native DeFi dApps.
