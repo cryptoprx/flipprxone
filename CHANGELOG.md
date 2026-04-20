@@ -2,6 +2,19 @@
 
 All notable changes to FLIPPRX ONE will be documented in this file.
 
+## [2.0.0] - 2026-04-20
+
+### 🔥 Major - The Architecture Ecosystem Update
+- **Unified SPA Hub** - Completely migrated the wallet into a seamless Single Page Application. No more hard page reloads.
+- **The fApp Ecosystem** - Introduced native Mini-dApps integrated purely into the wallet dashboard avoiding third-party routing.
+- **FLIPPRX Marketplace SPA Integration** - Marketplace now runs entirely inside the wallet as an fApp, providing ultra-smooth bid/ask execution.
+- **Glassmorphic Redesign** - Purged all legacy brutalist CSS in favor of a sleek translucent `glass-card` design pattern affecting everything from NFT Cards to the central Dashboard.
+- **Zero Backend Required** - Successfully removed all legacy PostgreSQL and Prisma architecture (specifically offboarding legacy minting) to embrace 100% XRPL on-chain dependency.
+- **Domain Depot Viewer** - Upgraded the domain system to scan and route strictly via the native `Domain` field in the user's `AccountRoot` on the ledger.
+- **Full SnapTap Prioritization** - Shifted documentation and user onboarding to exclusively emphasize WebAuthn KMS (FaceID/TouchID) creation over legacy 12-word seeds.
+
+---
+
 ## [1.4.0] - 2026-02-27
 
 ### 🎯 Added - UX Improvements
