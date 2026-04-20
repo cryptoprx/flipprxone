@@ -1,6 +1,6 @@
 # Welcome to FLIPPRX ONE Wallet (fONE) Wiki
 
-![FLIPPRX ONE](../images/hero.png)
+![FLIPPRX ONE Banner](../images/banner.png)
 
 **FLIPPRX ONE Wallet (fONE)** is a next-generation, browser-native self-custodial wallet ecosystem. Featuring a unified glassmorphic Single Page Application (`SPA`) architecture, it supports the XRPL, Solana, and Bitcoin ledgers simultaneously—secured by **SnapTap WebAuth KMS**.
 
