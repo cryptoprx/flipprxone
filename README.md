@@ -4,7 +4,7 @@
 
 # The Gateway to Web3 🌌
 
-**[🌐 Launch Web App](https://one.flipprx.xyz)** • **[💬 Telegram Community](https://t.me/flipprx)** • **[🐦 Follow Updates](https://twitter.com/_FLIPPRX_)**
+**[🌐 Launch Web App](https://flipprx.one)** • **[💬 Telegram Community](https://t.me/flipprx)** • **[🐦 Follow Updates](https://twitter.com/_FLIPPRX_)**
 
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
 [![Security: WebAuthn](https://img.shields.io/badge/Security-SnapTap%20WebAuthn-orange.svg)](#)
@@ -110,7 +110,7 @@ Crypto apps shouldn't be boring spreadsheets.
 
 ## 🚀 Get Started Now
 
-1. **Launch**: Open [FLIPPRX ONE Wallet](https://one.flipprx.xyz)
+1. **Launch**: Open [FLIPPRX ONE Wallet](https://flipprx.one)
 2. **Create**: Choose WebAuthn Security.
 3. **Fund**: Send XRP/SOL to activate your local address.
 4. **Explore**: Dive right into the Marketplace and native DeFi dApps.

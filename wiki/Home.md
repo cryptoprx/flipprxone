@@ -28,7 +28,7 @@ FLIPPRX is not just a ledger interface. It is a full ecosystem that abstracts De
 
 ## 🔗 Important Links
 
-- 🌐 **Live Wallet**: [one.flipprx.xyz](https://one.flipprx.xyz)
+- 🌐 **Live Wallet**: [flipprx.one](https://flipprx.one)
 - 🐦 **Twitter**: [@_flipprx_](https://twitter.com/_flipprx_)
 - 💬 **Telegram**: [t.me/flipprx](https://t.me/flipprx)
 - 📧 **Support**: admin@croak.work

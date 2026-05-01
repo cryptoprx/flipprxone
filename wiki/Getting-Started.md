@@ -7,7 +7,7 @@ Welcome to FLIPPRX ONE! Establishing your high-security profile takes less than 
 ## 🚀 Step 1: Open the App
 
 Because fONE is a Single Page Application (SPA), there is nothing to download.
-Visit **[one.flipprx.xyz](https://one.flipprx.xyz)** on your Desktop, Tablet, or Mobile browser.
+Visit **[flipprx.one](https://flipprx.one)** on your Desktop, Tablet, or Mobile browser.
 
 ---
 

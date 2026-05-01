@@ -12,7 +12,7 @@ Common questions about the FLIPPRX Wallet ecosystem answered.
 
 ### Do I need to download an extension?
 
-**No.** FLIPPRX runs directly in your secure browser context. There is no chrome extension to install, nor an app store application to download. Simply navigate to [one.flipprx.xyz](https://one.flipprx.xyz) on Desktop or Mobile, and the wallet mounts securely.
+**No.** FLIPPRX runs directly in your secure browser context. There is no chrome extension to install, nor an app store application to download. Simply navigate to [flipprx.one](https://flipprx.one) on Desktop or Mobile, and the wallet mounts securely.
 
 ### Is it free to use?
 
